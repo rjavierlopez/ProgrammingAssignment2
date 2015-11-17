@@ -29,6 +29,6 @@ cacheSolve <- function(x=matrix(), ...) {
 }
 
 ##In order to use this script, the user should write the following commands:
-## a <- cacheMatrix() (stores a function in a variable)
+## a<-cacheMatrix() (stores a function in a variable)
 ## a$set(matrix(1:4,2,2)) (creates a 2x2 matrix and stores it in a)
 ## cacheSolve(a) (executes our code, and solves our 'cache' matrix)
